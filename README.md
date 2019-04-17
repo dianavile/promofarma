@@ -24,13 +24,15 @@ A terminal (I used Git Bash for Windows)
 ### Package installation
 to create the __basic structure of a React app__:
 ```bash
-npx create-react-app shopping-cart
+npm install
 ```
-to __clone this repository__
-
+ ### Start the React App
+ to __start the React App__: 
 ```bash
-npm install 
+npm start
 ```
+The application will start automatically in your browser on http://localhost:3000
+
 
 ### Dependencies installation
     "materialize-css": "^1.0.0",
