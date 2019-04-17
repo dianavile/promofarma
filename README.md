@@ -51,3 +51,4 @@ DOC
 https://facebook.github.io/create-react-app/
 https://www.youtube.com/watch?v=YeFzkC2awTM
 
+https://learn.shayhowe.com/html-css/building-your-first-web-page/#html-document-structure
