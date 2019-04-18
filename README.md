@@ -2,8 +2,7 @@
 a Progresssive Web Application(PWA) with `React`, `Redux` and `Materialize.CSS` for e-commerce PromoFarma.
 
 ## Project Main Goal
-The main goal is to create a static web page according to mockup 
-The App consist of two main components "Productlist" and "Shoppingcart".
+Create a static web page according to mockup of two main components "Productlist" and "Shoppingcart".
 
 ### Features 
 __Productlist:__
