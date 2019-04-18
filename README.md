@@ -1,27 +1,28 @@
 # PromoFarma frontend test 
-is an Progresssive Web Application(PWA) with React and Redux for e-commerce PromoFarma.
+a Progresssive Web Application(PWA) with React and Redux for e-commerce PromoFarma.
 
 ## Project Main Goal
-The main goal is to create a static web page according to mockup with two components "Productlist" and "Shoppingcart".
-![Mobile](MobileVersion.png)
-![Web](WebVersion.png)
+The main goal is to create a static web page according to mockup 
+The App consist of two main components "Productlist" and "Shoppingcart".
 
-## Features 
+### Features 
 __Productlist:__
+[Mobile](MobileVersion.png)!
 * A static list of Products 
 * Add one product to the shopping-cart 
 * At adding a product, Button will be disabled and turns grey.
 
 __Shoppingcart:__
+![Web](WebVersion.png)
 * Show the added product, the sum of the value of the products and the total of the elements. 
 * If no products: shows 0 products and a Total price of 0 €.
 * No need to delete items from the shoppingcart.
 * In Mobile version, shopping card is a fixed section inside the screen (sticky image), it shows the price and total of products.
 
 ### Requirements to Get Started
-Node.js
-NPM
-A terminal (I used Git Bash for Windows)
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/)
+* [A terminal-Git Bash for Windows](https://gitforwindows.org/)
 
 ## Installation
 This project is <b>Built with</b> startercode´s
