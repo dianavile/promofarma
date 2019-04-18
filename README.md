@@ -39,15 +39,17 @@ The application will start automatically in your browser on http://localhost:300
 
 ### Install Dependencies 
 This project uses the following dependencies:
+  "dependencies": {
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
-    "react-redux": "^6.0.0",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.1"
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1"  
+  }
 All dependencies can be installed via [NPM](https://www.npmjs.com/package/)
+You can find the dependencies in the `package.json` file.
 
 ## Credits
 This video helped me getting started to create a static E-commerce site:
