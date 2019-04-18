@@ -1,5 +1,5 @@
 # PromoFarma frontend test 
-a Progresssive Web Application(PWA) with `React`, `Redux` and `Materialize.CSS` for e-commerce PromoFarma.
+shopping-cart is a Progresssive Web Application(PWA) with `React`, `Redux` and `Materialize.CSS` for e-commerce PromoFarma.
 
 ## Project Main Goal
 Create a static web page according to mockup of two main components "Productlist" and "Shoppingcart".
