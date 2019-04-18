@@ -37,22 +37,22 @@ npm start
 The application will start automatically in your browser on http://localhost:3000
 
 ### Install Dependencies 
-This project uses the following dependencies:
-  "dependencies": {
-    "materialize-css": "^1.0.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-redux": "^7.0.2",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "redux": "^4.0.1"  
-  }
-All dependencies can be installed via [NPM](https://www.npmjs.com/package/)
+This project uses the following __dependencies__:
+
+* "materialize-css": "^1.0.0",
+* "react": "^16.8.6",
+* "react-dom": "^16.8.6",
+* "react-redux": "^7.0.2",
+* "react-router-dom": "^5.0.0",
+* "react-scripts": "2.1.8",
+* "redux": "^4.0.1"  
 You can find the dependencies in the `package.json` file.
+All dependencies can be installed via [NPM](https://www.npmjs.com/package/)
 
 ## Credits
-This video helped me getting started to create a static E-commerce site:
-[shoppingcard-YouTube video](https://www.youtube.com/watch?v=YeFzkC2awTM)
+These video´s helped me getting started to create a static E-commerce site:
+- [JavaScript Shopping Cart Tutorial for Beginners-YouTube video](https://www.youtube.com/watch?v=YeFzkC2awTM)
+- [React-Redux Shopping Cart DEMO-YouTube video](https://www.youtube.com/watch?v=J7Tw1hlK41E)
 
 ## Contributing
 
