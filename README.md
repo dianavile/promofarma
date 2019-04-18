@@ -1,12 +1,14 @@
 # PromoFarma frontend test 
-This e-commerce shopping cart app (PWA) is build with React and Redux as front-end test for PromoFarma.
+is an Progresssive Web Application(PWA) with React and Redux for e-commerce PromoFarma.
 
 ## Project Main Goal
-Create a static web page according to mockup with two components "Productlist" and "Shoppingcart".
+The main goal is to create a static web page according to mockup with two components "Productlist" and "Shoppingcart".
+![Mobile](MobileVersion.png)
+![Web](WebVersion.png)
 
-## Features
+## Features 
 __Productlist:__
-* Static list of Products 
+* A static list of Products 
 * Add one product to the shopping-cart 
 * At adding a product, Button will be disabled and turns grey.
 
@@ -21,34 +23,37 @@ Node.js
 NPM
 A terminal (I used Git Bash for Windows)
 
-### Package installation
-to create the __basic structure of a React app__:
+## Installation
+This project is <b>Built with</b> startercode´s
+- [Create-React-App](https://facebook.github.io/create-react-app/)
+
+To create the __basic structure of a React app__:
 ```bash
 npm install
 ```
- ### Start the React App
- to __start the React App__: 
+ To __start the React App__: 
 ```bash
 npm start
 ```
 The application will start automatically in your browser on http://localhost:3000
 
-
-### Dependencies installation
+### Install Dependencies 
+This project uses the following dependencies:
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
-
-https://www.npmjs.com/package/react-scripts
-   
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1"
+All dependencies can be installed via [NPM](https://www.npmjs.com/package/)
 
-DOC
-https://facebook.github.io/create-react-app/
-https://www.youtube.com/watch?v=YeFzkC2awTM
+## Credits
+This video helped me getting started to create a static E-commerce site:
+[shoppingcard-YouTube video](https://www.youtube.com/watch?v=YeFzkC2awTM)
 
-https://learn.shayhowe.com/html-css/building-your-first-web-page/#html-document-structure
+## Contributing
+
+## License
+[MIT]()©[Diana Vilé](https://github.com/dianavile/)
