@@ -10,7 +10,6 @@ __Productlist:__
 * A static list of Products 
 * Add one product to the shopping-cart 
 * At adding a product, Button will be disabled and turns grey.
-![Mobile](MobileVersion.png)
 
 __Shoppingcart:__
 * Show the added product, the sum of the value of the products and the total of the elements. 
