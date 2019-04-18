@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: 'Open Sans',serif;
+ }
+
+.box{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav.nav-wrapper{
+    background-color: #88c441;
+    }
+    
+.material-icons.md-24{
+    font-size: 24px; 
+    cursor: pointer;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    /*padding: 16px;
+    position: relative;
+    border-radius: 2px; */   
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 200
+}
+.cart{
+    margin-top:20px;
+}
+
+.cart span style{
+    margin-top:20px;
+}
+  
+.collection .collection-item{
+    display: flex;
+}
+
+.collection-item.avatar {
+    min-height: 84px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #88C441;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+.container h5 {
+    color: #88C441;   
+}
+
+/*.nav{
+    color: #88c441; //green
+    color: #585755;	//gray
+    color: #fff; //white	
+    }
+*/
+/* MEDIA QUERIES- add breakpoint for 768px*/
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
