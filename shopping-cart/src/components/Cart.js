@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { removeItem,addQuantity,subtractQuantity} from './actions/cardActions'
 import Recipe from './Recipe'
 
+//Need to just add 1 product and button will turn gray (sold out), not too complicated as I tried here. But do not know how to do so.
 class Cart extends Component{
 
     //Remove the item 
