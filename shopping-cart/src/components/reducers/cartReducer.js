@@ -8,7 +8,7 @@ import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING} from '.
 
 const initState = {
     items: [
-        {id:1,desc: "Lajusticia colágeno con magnesio 450comp.", price:14.35,img:Item1},
+        {id:1,desc: "Lajusticia colágeno con magnesio 450comp", price:14.35,img:Item1},
         {id:2,desc: "Xhekpon crema facial 40 mg", price:6.49,img: Item2},
         {id:3,desc: "Cerave Crema Hidratante 340 ml",price:11.70,img: Item3},
         {id:4,desc: "Hyabak solución 10 ml", price:9.48,img:Item4},
