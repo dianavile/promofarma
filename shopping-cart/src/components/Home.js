@@ -11,7 +11,7 @@ import { addToCart } from './actions/cardActions'
     render(){
         let itemList = this.props.items.map(item=>{
             return(
-                <div className="card" key={item.id}>
+                <section className="card" key={item.id}>
                         <div className="card-image">
                             <img src={item.img} alt={item.title}/>
                             <span className="card-title">{item.title}</span>
@@ -22,17 +22,17 @@ import { addToCart } from './actions/cardActions'
                             <p>{item.desc}</p>
                             <p>{item.price}€</p>
                         </div>
-                 </div>
+                 </section>
             )
         })
 
         return(
-            <div className="container">
+            <section className="container">
                 <h4 className="center">Productos</h4>
                 <div className="box">
                     {itemList}
                 </div>
-            </div>
+            </section>
         )
     }
 }
