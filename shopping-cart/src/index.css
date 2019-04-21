@@ -1,41 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
-    font-family: 'Open Sans',serif;
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body { 
+    background-color: #fff;
+    font-family: 'Open Sants', sans-serif;
+    padding: 20px;
  }
 
-.box{
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-nav.nav-wrapper{
+ nav.nav-wrapper {
     background-color: #88c441;
     }
-    
+
+.div .container a.brand-logo{
+    text-align: left;
+    position: fixed;
+    }
+
 .material-icons.md-24{
     font-size: 24px; 
     cursor: pointer;
 }
 
-.card{
-    width: 150px;
-    height: 150px;
-    /*padding: 16px;
-    position: relative;
-    border-radius: 2px; */   
-}
-.card .card-image .card-title{
-    color: black;
-    font-weight: 200
-}
-.cart{
-    margin-top:20px;
+.box {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.cart span style{
+.card {
+    width: 600px;
+    height: 100px;   
+    position: relative;   
+}
+
+.card-image {
+    color: #fff;
+    font-weight: 100
+}
+
+.card-image item.price {
     margin-top:20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.card-image button{
+    text-align: right;  
+    position: relative;
+    justify-content: space-between;
 }
   
 .collection .collection-item{
@@ -74,24 +95,3 @@ nav.nav-wrapper{
     color: #fff; //white	
     }
 */
-/* MEDIA QUERIES- add breakpoint for 768px*/
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
