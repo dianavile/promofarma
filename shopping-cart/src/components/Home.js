@@ -12,17 +12,12 @@ import { addToCart } from './actions/cardActions'
         let itemList = this.props.items.map(item=>{
             return(
                 <section className="card" key={item.id}>
-                        <div className="card-image">
-                            <img src={item.img} alt={item.title}/>
+                        <div className="card-content">
+                            <p>{item.desc}{item.price}€</p>
                             <span className="card-title">{item.title}</span>
                             <button to="/" className="waves-effect waves-light btn light-green add" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add shopping_cart</i></button>
                         </div>
-
-                        <div className="card-content">
-                            <p>{item.desc}</p>
-                            <p>{item.price}€</p>
-                        </div>
-                 </section>
+                </section>
             )
         })
 
