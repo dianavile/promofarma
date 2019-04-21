@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import { removeItem,addQuantity,subtractQuantity} from './actions/cardActions'
 import Recipe from './Recipe'
 
-//Need to just add 1 product and button will turn gray (sold out), not too complicated as I tried here. But do not know how to do so.
 class Cart extends Component{
 
     //Remove the item 
@@ -35,14 +34,7 @@ class Cart extends Component{
                                         <span className="title">{item.title}</span>
                                         <p>{item.desc}</p>
                                         <p><b>{item.price} €</b></p> 
-                                        <p>
-                                            <b>Quantity: {item.quantity}</b> 
-                                        </p>
-                                        <div className="add-remove">
-                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleAddQuantity(item.id)}}>arrow_drop_up</i></Link>
-                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleSubtractQuantity(item.id)}}>arrow_drop_down</i></Link>
-                                        </div>
-                                        <button className="waves-effect waves-light btn light green remove" onClick={()=>{this.handleRemove(item.id)}}>Remove</button>
+                                        <button to="/" className="waves-effect waves-light btn grey darken-1 add" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add shopping_cart</i></button>
                                     </div>                                    
                                 </li>                       
                     )
@@ -50,7 +42,7 @@ class Cart extends Component{
             ):
 
              (
-                <p>0 productos.</p>
+                <p> 0 productos.</p>
              )
        return(
            <section className="content-section container">
