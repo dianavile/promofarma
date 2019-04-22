@@ -34,7 +34,7 @@ class Cart extends Component{
                                         <span className="title">{item.title}</span>
                                         <p>{item.desc}</p>
                                         <p><b>{item.price} €</b></p> 
-                                        <button to="/" className="waves-effect waves-light btn grey darken-1 add" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add shopping_cart</i></button>
+                                        <button to="/" className="waves-effect waves-light btn grey darken-1 add"><i className="material-icons">add shopping_cart</i></button>
                                     </div>                                    
                                 </li>                       
                     )
@@ -48,6 +48,7 @@ class Cart extends Component{
            <section className="content-section container">
            <div className="container">
             <h5> MI CESTA:</h5>
+            <hr></hr>
             <span style={{ whiteSpace: 'pre-wrap' }}>{}</span>
                 <div className="cart">
                     <ul className="collection">
