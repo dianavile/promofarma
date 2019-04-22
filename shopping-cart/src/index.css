@@ -58,7 +58,7 @@ body {
     position: relative;
     justify-content: space-between;
 }
-  
+
 .collection .collection-item{
     display: flex;
 }
@@ -89,6 +89,17 @@ body {
     color: #88C441;   
 }
 
+.container .hr {
+    color: #88C441; 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+}
+         
 /*.nav{
     color: #88c441; //green
     color: #585755;	//gray
