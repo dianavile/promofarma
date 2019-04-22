@@ -13,7 +13,7 @@ import { addToCart } from './actions/cardActions'
             return(
                 <section className="card" key={item.id}>
                         <div className="card-content">
-                            <p>{item.desc}{item.price}€</p>
+                            <p>{item.desc}<b>{item.price}€</b></p>
                             <span className="card-title">{item.title}</span>
                             <button to="/" className="waves-effect waves-light btn light-green add" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add shopping_cart</i></button>
                         </div>
