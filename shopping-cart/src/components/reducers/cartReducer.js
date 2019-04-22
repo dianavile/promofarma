@@ -4,7 +4,7 @@ import Item3 from '../../images/cerave-crema.jpg'
 import Item4 from '../../images/hyabak-solucion.jpg'
 import Item5 from '../../images/fotoprotector-isdin.jpg'
 import Item6 from '../../images/piz-buin.jpg'
-import { ADD_TO_CART} from '../actions/action-types/cart-actions'
+import { ADD_TO_CART, REMOVE_ITEM} from '../actions/action-types/cart-actions'
 
 const initState = {
     cart: [
@@ -66,7 +66,7 @@ const cartReducer= (state = initState,action)=>{
         }
     }
 
-    /* if(action.type === REMOVE_ITEM){
+    if(action.type === REMOVE_ITEM){
         let itemToRemove= state.addedItems.find(item=> action.id === item.id)
         let new_items = state.addedItems.filter(item=> action.id !== item.id)
         
@@ -78,7 +78,7 @@ const cartReducer= (state = initState,action)=>{
             addedItems: new_items,
             total: newTotal
         }
-    }*/
+    }
 
     //INSIDE CART COMPONENT
      /* if(action.type=== ADD_QUANTITY){
@@ -117,14 +117,14 @@ const cartReducer= (state = initState,action)=>{
     /* if(action.type=== ADD_SHIPPING){
           return{
               ...state,
-              total: state.total + 6
+              total: state.total + productos
           }
     }
 
     if(action.type=== 'SUB_SHIPPING'){
         return{
             ...state,
-            total: state.total - 6
+            total: state.total - productos
         }
   } */
 
