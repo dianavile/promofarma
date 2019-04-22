@@ -17,6 +17,10 @@ __Shoppingcart:__
 * In Mobile version, shopping card is a fixed section inside the screen (sticky image), it shows the price and total of products.
 ![Web](WebVersion.png)
 
+### Results
+![ProductsList](ProductList.png)
+![Shopping-cart](Shopping-cart.png)
+
 ### Requirements to Get Started
 * [Node.js](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
