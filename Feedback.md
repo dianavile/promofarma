@@ -17,3 +17,18 @@ para poder ver como se desarrolla el resultado a nivel de responsive design.
 Nos hubiera interesado más que el resultado visual fuera más fiel a la especificación 
 que otros detalles que eran opcionales, como PWA o tests. 
 Los items del listado se veían desalineados y no podíamos valorar bien los conocimientos de CSS.
+
+LEARNINGS
+Appreciated:
+- Using a modern stack like React, Redux, separated with components.
+- Paying Attention to Performance and tools used.
+- Send in with GitHub repository.
+- Email with retroperspectiva about learnings & skills to develop.
+- Positive Actitud and willing to learn.
+
+To be improved:
+- pixel perfect design
+- code exactly like the example.
+- practice CSS to improve boxes principle.
+- first get the basic perfect (HTML, CSS, React),
+  then start thinking about optional details, like PWA or testing.
